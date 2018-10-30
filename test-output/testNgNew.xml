@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes> 
+    	 <class name="testPackage.TextSearch"/>
+    	  <class name="testPackage.CaseNumberSearch"/>
+    	  
+    
+       <class name="testPackage.FilterSingle"/>
+       <class name="testPackage.SingleCourt"/>
+       <class name="testPackage.SingleCourtType"/>
+       <class name="testPackage.SingleRegion"/>
+       <class name="testPackage.SingleYear"/>
+    
+       
+        <class name="testPackage.Filter2"/>
+       <class name="testPackage.Filter2Court"/>
+       <class name="testPackage.Filter2CourtType"/>
+       <class name="testPackage.Filter2Region"/>
+       <class name="testPackage.Filter2Year"/>
+       
+        <class name="testPackage.PendingRegion"/>
+       <class name="testPackage.DisposedRegion"/>
+        <class name="testPackage.PendingYear"/>
+       <class name="testPackage.DisposedYear"/>
+       <class name="testPackage.PendingCourt"/>
+       <class name="testPackage.DisposedCourt"/>
+      
+      
+       <class name="testPackage.Reports"/>
+       <class name="testPackage.Account"/>
+       <class name="testPackage.AboutPage"/>
+       
+       
+       <class name="testPackage.IndividualFilter2CaseStatus"/>
+       <class name="testPackage.IndividualFilter2CourtType"/>
+       <class name="testPackage.IndividualFilter2Region"/>
+        <class name="testPackage.IndividualFilter2Year"/>
+        
+        
+            
+             <class name="testPackage.IndividualFilterSingle"/>
+              <class name="testPackage.IndividualSingleCourt"/>
+               <class name="testPackage.IndividualSingleCourtType"/>
+                <class name="testPackage.IndividualSingleRegion"/>
+                 <class name="testPackage.IndividualSingleYear"/>
+                 
+                 
+      
+        
+        
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testPackage.Reports">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="reports"/>
+          <include name="startApp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPackage.Reports -->
+      <class name="testPackage.IndividualAggCourt">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="startApp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPackage.IndividualAggCourt -->
+      <class name="testPackage.SingleRegion">
+        <methods>
+          <include name="CaseStatusSingle"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- testPackage.SingleRegion -->
+      <class name="testPackage.IndividualAggregate">
+        <methods>
+          <include name="CaseStatusSingle"/>
+          <include name="afterClass"/>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testPackage.IndividualAggregate -->
+      <class name="testPackage.SingleCourtType">
+        <methods>
+          <include name="startApp"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="CaseStatusSingle"/>
+        </methods>
+      </class> <!-- testPackage.SingleCourtType -->
+      <class name="testPackage.SingleYear">
+        <methods>
+          <include name="CaseStatusSingle"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- testPackage.SingleYear -->
+      <class name="testPackage.AboutPage">
+        <methods>
+          <include name="about"/>
+          <include name="beforeClass"/>
+          <include name="startApp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPackage.AboutPage -->
+      <class name="testPackage.SingleCourt">
+        <methods>
+          <include name="afterClass"/>
+          <include name="CourtSingle"/>
+          <include name="beforeClass"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- testPackage.SingleCourt -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
